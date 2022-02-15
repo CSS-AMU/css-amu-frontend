@@ -5,7 +5,7 @@ import './achievementpage.css';
 
 const AchievementPage = () => {
 
-  const { data, pending, error } = useFetch("https://cssamu.pythonanywhere.com/api/v1/achievements/?format=json")
+  const { data, pending, error } = useFetch("https://cssamu.pythonanywhere.com/api/v1/achievements/")
 
   return (
     <div className="csd__achievementpage section__padding" id="achievements">

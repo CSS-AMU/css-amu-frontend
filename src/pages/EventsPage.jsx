@@ -4,7 +4,7 @@ import '../containers/blog/blog.css';
 import useFetch from '../useFetch';
 
 const EventsPage = () => {
-  const { data, pending, error } = useFetch("https://cssamu.pythonanywhere.com/api/v1/events/?format=json")
+  const { data, pending, error } = useFetch("https://cssamu.pythonanywhere.com/api/v1/events/")
 
   return (
     <div className="csd__blog section__padding" id="blog">
