@@ -1,0 +1,133 @@
+.csd__join {
+    display: flex;
+    flex-direction: column;    
+}
+
+.csd__join-heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 5rem;
+}
+
+.csd__join-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.csd__join-content__container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.csd__join-content__input {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.csd__join-content__input input {
+    width: 70%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    margin-bottom: 20px;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.csd__join-content__input button {
+    width: 30%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+@media screen and (max-width: 990px) {
+    .csd__join-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .csd__join-container_groupA {
+        margin: 2rem 0;
+    }
+
+    .csd__join-container_groupA .csd__join-container_article  {
+       width: 48%;
+    }
+
+    .csd__join-container_groupA .csd__join-container_article-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .csd__join-content__input {
+        width: 100%;
+    }
+
+    .csd__join-content__input {
+        width: 100%;
+    }
+    
+    .csd__join-content__input input {
+        width: 100%;
+    }
+    
+    .csd__join-content__input button {
+        width: 60%;
+    }
+
+    .csd__join-container_groupB {
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .csd__join-container_groupA .csd__join-container_article  {
+       width: 100%;
+    }
+
+    .csd__join-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .csd__join-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}

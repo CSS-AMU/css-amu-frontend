@@ -1,0 +1,77 @@
+.csd__achievementpage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.csd__achievementpage-heading {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.csd__achievementpage-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.csd__achievementpage-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.csd__achievementpage-container {
+    flex: 1.5;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+    .csd__achievementpage {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .csd__achievementpage-heading {
+        margin: 0 0 2rem 0;
+    }
+
+    .csd__achievementpage-container {
+        flex: 1.5;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .csd__achievementpage-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .csd__achievementpage-heading {
+        width: 80%;
+    }
+}

@@ -1,0 +1,33 @@
+import React from 'react';
+import './cta.css';
+
+const CTA = () => (
+  <div className="csd__cta">
+    <div className="csd__cta-content">
+      <p> To bring about innovations in the technological sphere.<br/>
+          To learn beyond the classroom level.<br/>
+          To provide consultancy to the industries/institutes/universities.<br/>
+          To instill technical knowledge in the students. They are encouraged to seek help from their peers and seniors for the same.<br/>
+          To help students realize their interests at an early level.<br/>
+          To make them aware of the latest trends in the field of Computer Science.<br/>
+          To organize technical events and coding competitions such as workshops, internships short-term courses, hackathons, webinars, etc.
+          To invite experts to deliver talks on the major technologies.<br/>
+          To conduct sessions to improve Soft-Skills and the overall personality of the students.<br/>
+          To explore areas to generate revenue. <br/>
+      </p><br/>
+      <p> To get better job opportunities and perform well in recruitment drives.<br/>
+          To develop their applications such as websites, apps, machine learning, and IoT-related products, etc. <br/>
+          To represent the University more confidently on national and international platforms.<br/>
+          To get good internship opportunities.<br/>
+          To help in automating various manual processes of the University.<br/>
+          To inculcate better communication skills.<br/>
+          To get a boost in the CV.<br/>
+      </p>
+    </div>
+    <div className="csd__cta-btn">
+      <button type="button">Get Started</button>
+    </div>
+  </div>
+);
+
+export default CTA;

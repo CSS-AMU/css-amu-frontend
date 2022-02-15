@@ -1,0 +1,79 @@
+.csd__teampage {
+    display: flex;
+    flex-direction: column;    
+}
+
+.csd__teampage-heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}
+
+.csd__teampage-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.csd__teampage-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.csd__teampage-container_groupA {
+    flex: 0.75;
+    margin-right: 2rem;
+}
+
+.csd__teampage-container_groupB {
+    flex: 1;
+
+    display:flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    .csd__teampage-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .csd__teampage-container_groupA {
+        margin: 2rem 0;
+    }
+
+    .csd__teampage-container_groupA .csd__teampage-container_article  {
+       width: 48%;
+    }
+
+    .csd__teampage-container_groupA .csd__teampage-container_article-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .csd__teampage-container_groupB {
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .csd__teampage-container_groupA .csd__teampage-container_article  {
+       width: 100%;
+    }
+
+    .csd__teampage-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .csd__teampage-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}
