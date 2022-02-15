@@ -3,9 +3,9 @@ import Feature from '../components/feature/Feature';
 import useFetch from '../useFetch';
 import './achievementpage.css';
 
-const Publications = () => {
+const AchievementPage = () => {
 
-  const { data, pending, error } = useFetch("/achievements/?format=json")
+  const { data, pending, error } = useFetch("https://cssamu.pythonanywhere.com/api/v1/achievements/?format=json")
 
   return (
     <div className="csd__achievementpage section__padding" id="achievements">
@@ -25,4 +25,4 @@ const Publications = () => {
   );
 }
 
-export default Publications;
+export default AchievementPage;

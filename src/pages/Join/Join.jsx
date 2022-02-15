@@ -15,7 +15,7 @@ const Join = () => {
     const join = { name, email, course }
     setpending(true)
 
-    fetch('/join/', {
+    fetch('https://cssamu.pythonanywhere.com/api/v1/join/', {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(join)
