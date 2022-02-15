@@ -15,9 +15,12 @@
     align-items: center;
 }
 
+.csd__brand a {
+    margin: 2rem;
+}
+
 @media screen and (max-width: 550px) {
     .csd__brand {
         display: grid;
     }
-
 }
