@@ -1,5 +1,4 @@
 import React from 'react';
-import people from '../../assets/people.png';
 import a from '../../assets/a.png';
 import { Link } from "react-router-dom";
 import './header.css';
@@ -14,11 +13,6 @@ const Header = () => (
         <Link to="/join" >
           <button type="button">Become a member</button>
         </Link>
-      </div>
-
-      <div className="csd__header-content__people">
-        <img src={people} alt="img"/>
-        <p>Become a member. Join us!</p>
       </div>
     </div>
 

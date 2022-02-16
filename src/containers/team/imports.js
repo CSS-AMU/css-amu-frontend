@@ -5,6 +5,8 @@ import team04 from '../../assets/team04.jpeg';
 import team05 from '../../assets/team05.jpeg';
 import team06 from '../../assets/team06.jpeg';
 import team07 from '../../assets/team07.jpeg';
+import team08 from '../../assets/team08.jpeg';
+import team09 from '../../assets/team09.jpeg';
 
 export {
   team01,
@@ -14,4 +16,6 @@ export {
   team05,
   team06,
   team07,
+  team08,
+  team09
 };
