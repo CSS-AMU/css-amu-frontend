@@ -12,7 +12,7 @@ const Team = () => (
     <div className="csd__teampage-container">      
       <div className="csd__teampage-container_groupB">
         <Article imgUrl={team01} date="Convener CSS" text="Dr. Mohammad Nadeem"/>
-        <Article imgUrl={team02} date="Coordinator CSS" text="Miss. Noor Fatima" />
+        <Article imgUrl={team02} date="Coordinator CSS" text="Ms. Noor Fatima" />
         <Article imgUrl={team03} date="Secretary CSS  &nbsp; / &nbsp; Tech Lead" text="Mr. Hasan Faraz Khan" />
      </div>
     </div>
