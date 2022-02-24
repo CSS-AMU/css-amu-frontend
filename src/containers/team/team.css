@@ -19,7 +19,7 @@
 
 .csd__team-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .csd__team-container_groupA {
@@ -30,8 +30,8 @@
 .csd__team-container_groupB {
     flex: 1;
 
-    display:flex;
-    grid-template-columns: repeat(2, 1fr);
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
 }
 

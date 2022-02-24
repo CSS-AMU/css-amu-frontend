@@ -18,8 +18,8 @@
 }
 
 .csd__navbar-links_logo img {
-    width: 160px;
-    height: 60px;
+    width: 280px;
+    height: 80px;
 }
 
 .csd__navbar-links_container {
@@ -113,6 +113,11 @@
     .csd__navbar {
         padding: 2rem 4rem;
     }
+
+    .csd__navbar-links_logo img {
+        width: 120px;
+        height: 90px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -130,5 +135,10 @@
 
     .csd__navbar-menu_container-links-sign {
         display: block;
+    }
+
+    .csd__navbar-links_logo img {
+        width: 180px;
+        height: 55px;
     }
 }

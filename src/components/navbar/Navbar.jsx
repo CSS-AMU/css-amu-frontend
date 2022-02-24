@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/csslogo.svg';
+import logo from '../../assets/cssamu3.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,7 +10,9 @@ const Navbar = () => {
     <div className="csd__navbar">
       <div className="csd__navbar-links">
         <div className="csd__navbar-links_logo">
+          <a href="/">
           <img src={logo} alt="img"/>
+          </a>
         </div>
         <div className="csd__navbar-links_container">
           <p><a href="/">HOME</a></p>

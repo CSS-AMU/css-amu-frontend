@@ -1,5 +1,5 @@
 import React from 'react';
-import a from '../../assets/a.png';
+import a from '../../assets/cssamucenter.png';
 import { Link } from "react-router-dom";
 import './header.css';
 
@@ -11,7 +11,7 @@ const Header = () => (
 
       <div className="csd__header-content__input">
         <Link to="/join" >
-          <button type="button">Become a member</button>
+          <button type="button">&nbsp; &nbsp; Join Us &nbsp; &nbsp; </button>
         </Link>
       </div>
     </div>

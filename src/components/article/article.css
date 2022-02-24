@@ -30,7 +30,7 @@
 
 .csd__blog-container_article-content p {
     font-family: var(--font-family);
-    font-size: 14.65px;
+    font-size: 16.65px;
     font-weight: 700;
     line-height: 35px;
 
@@ -39,7 +39,7 @@
 
 .csd__blog-container_article-content h3 {
     font-family: var(--font-family);
-    font-size: 25.11px;
+    font-size: 17.11px;
     font-weight: 400;
     line-height: 30.30px;
     
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 550px) {
     .csd__blog-container_article-content h3 {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 25p;
     }
 }

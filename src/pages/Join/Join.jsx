@@ -7,12 +7,13 @@ const Join = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [course, setCourse] = useState('');
-  const [pending, setpending] = useState(false)
-  const [thank, setThank] = useState(false)
+  const [enrolment, setEnrolment] = useState('');
+  const [pending, setpending] = useState(false);
+  const [thank, setThank] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const join = { name, email, course }
+    const join = { name, email, course, enrolment }
     setpending(true)
 
     fetch('https://cssamu.pythonanywhere.com/api/v1/join/', {
@@ -57,6 +58,12 @@ const Join = () => {
               value={course}
               onChange={(e) => setCourse(e.target.value)}
               placeholder="Your Course and Year" 
+            />
+            <input type="text" 
+              required 
+              value={enrolment}
+              onChange={(e) => setEnrolment(e.target.value)}
+              placeholder="Enrolment number" 
             />
             { !pending && <button >Submit Details</button>}
             { pending && <button disabled >Adding....</button> }

@@ -1,11 +1,11 @@
 import React from 'react';
-import csdLogo from '../../assets/csslogo.svg';
+import csdLogo from '../../assets/csslogo.png';
 import './footer.css';
 
 const Footer = () => (
   <div className="csd__footer section__padding">
     <div className="csd__footer-heading">
-      <h1 className="gradient__text">Do you have any suggestion ?</h1>
+      <h1 className="gradient__text">Do you have any suggestion or feedback ?</h1>
     </div>
 
     <div className="csd__footer-btn">
