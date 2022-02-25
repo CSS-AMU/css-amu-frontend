@@ -1,5 +1,7 @@
 # CSS AMU Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d03c1a56-405f-403e-a3ee-ce45b494a13b/deploy-status)](https://app.netlify.com/sites/cssamu/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
