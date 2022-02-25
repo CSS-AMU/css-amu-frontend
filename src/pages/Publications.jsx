@@ -17,7 +17,7 @@ const Publications = () => {
       </div>
       { data &&  <div className="csd__achievementpage-container">
         {data.map((item, index) => (
-          <Feature title={item.author} text={item.details} key={index} />
+          <Feature title={item.author} text={item.details} link={item.link} key={index} />
         ))}
       </div>}
     </div>

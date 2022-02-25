@@ -7,7 +7,7 @@ const Header = () => (
   <div className="csd__header section__padding" id="home">
     <div className="csd__header-content">
       <h1 className="gradient__text">COMPUTER SCIENCE SOCIETY</h1>
-      <p>The Computer Science Society - CSS (Formerly the Area of Dominant Coders Club - ADC) is an initiative of the students of the Department of Computer Science, Aligarh Muslim University, Aligarh. It is a platform to share the knowledge of Computer Science among all the interested members of the Faculty of Science.</p>
+      <p>An initiative by the students of the Department of Computer Science, Aligarh Muslim University, Aligarh, to share Computer Science knowledge, learn and grow beyond classrooms, and innovate in the technological sphere.</p>
 
       <div className="csd__header-content__input">
         <Link to="/join" >
