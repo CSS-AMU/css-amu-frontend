@@ -24,14 +24,21 @@
     background:-o-radial-gradient(circle at 3% 25%, rgb(133, 190, 248) 0%, rgb(216, 222, 231) 25%);
   
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgb(160, 179, 197) 0%, rgb(237, 238, 241) 25%);
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(230, 221, 221, 0.836) 0%, rgb(226, 216, 216) 25%);
   
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 10% 25%, rgb(179, 190, 202) 0%, rgb(251, 251, 251) 25%);
+    background:radial-gradient(circle at 10% 25%, rgb(247, 245, 245) 0%, rgba(243, 242, 242, 0.938) 25%);
   }
   
   .gradient__text {
     background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient__textfoot {
+    background: var(--gradient-textfoot);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

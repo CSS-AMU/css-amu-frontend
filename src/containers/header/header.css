@@ -65,8 +65,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #c62c89;
-    border: 2px solid #c62c89;
+    background:#1a68cf;
+    border: 2px solid #1a68cf;
     padding: 0 1rem;
     color: #fff;
     cursor: pointer;
@@ -76,6 +76,11 @@
     border-bottom-left-radius:15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    transition: all .4s ease-in-out;
+}
+
+.csd__header-content__input button:hover {
+    transform: scale(1.1);
 }
 
 .csd__header-content__people {

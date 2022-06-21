@@ -6,19 +6,19 @@
     background: var(--color-footer);
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-moz-radial-gradient(circle at 30% -100%, #23588d 25%, rgb(75, 114, 153) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    background:-webkit-radial-gradient(circle at 30% -100%, #4a7aaa 25%, rgb(60, 100, 139) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* opera 11.10+ */
     background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 30% -100%, #b6bec5 25%, rgb(203, 209, 215) 85%, rgb(117, 125, 134) 100%);
+    background:-ms-radial-gradient(circle at 30% -100%, #b6bec5 25%, rgb(203, 209, 215) 85%, rgb(1, 7, 14)100%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 30% -100%, #9ec0e2 25%, rgb(145, 157, 168) 85%, rgb(175, 189, 204) 100%);
+    background:radial-gradient(circle at 30% -100%, #d8dce0 25%, rgb(147, 177, 206) 85%, rgb(117, 176, 235) 100%);
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
