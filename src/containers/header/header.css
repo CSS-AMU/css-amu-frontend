@@ -51,7 +51,7 @@
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: rgb(79, 73, 97);
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -65,8 +65,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
+    background: #c62c89;
+    border: 2px solid #c62c89;
     padding: 0 1rem;
     color: #fff;
     cursor: pointer;

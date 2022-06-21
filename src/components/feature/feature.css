@@ -20,14 +20,14 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.04em;
-    color: #fff;
+    color: rgb(18, 26, 97);
 }
 
 .csd__features-container__feature-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(126, 15, 113, 0.25);
     margin-bottom: 0.25rem;
 }
 
