@@ -1,9 +1,12 @@
 .csd__navbar {
     display: flex;
+    background:rgba(243, 242, 242, 0.973) !important;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    position: fixed;
+    z-index: 5;
+    width : 100%;
+    padding: 0rem 6rem;
 }
 
 .csd__navbar-links {
@@ -18,8 +21,9 @@
 }
 
 .csd__navbar-links_logo img {
-    width: 280px;
-    height: 80px;
+    width: 210px;
+    height: 82px;
+    padding: 1rem;
 }
 
 .csd__navbar-links_container {
@@ -126,18 +130,18 @@
 
 @media screen and (max-width: 700px) {
     .csd__navbar {
-        padding: 2rem 4rem;
+        padding: 0rem 6rem;
     }
 
     .csd__navbar-links_logo img {
-        width: 120px;
-        height: 90px;
+        width: 200px;
+        height: 80px;
     }
 }
 
 @media screen and (max-width: 550px) {
     .csd__navbar {
-        padding: 2rem;
+        padding: 0rem 1rem;
     }
 
     .csd__navbar-sign {
@@ -153,7 +157,7 @@
     }
 
     .csd__navbar-links_logo img {
-        width: 180px;
-        height: 55px;
+        width: 200px;
+        height: 80px;
     }
 }
