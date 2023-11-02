@@ -34,7 +34,7 @@ const App = () => {
       <Route path="/team">
         <TeamPage/>
       </Route>
-      <Route path="/join">
+      <Route path="/joinn">
         <Join/>
       </Route> 
       </Switch>
