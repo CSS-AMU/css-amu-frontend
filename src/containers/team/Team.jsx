@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import { team01, team02, team03, team10, team11, team12, team_asm, team_bkr,
-         team_fsl, team_shl, team_sjd, team_swl } from './imports';
+         team_fsl, team_shl, team_sjd, team_swl, team13, team14, team16, team17, team18, team19, team20, team21, team22, team23} from './imports';
 import './team.css';
 
 const Team = () => (
@@ -23,6 +23,31 @@ const Team = () => (
     <br></br>
     <br></br>
     <br></br>
+
+
+    <div className="csd__teampage-heading">
+      <h1 className="gradient__text">STUDENT TEAM </h1>
+    </div>
+    <div className="csd__team-container">
+      <div className="csd__team-container_groupB">  
+        <Article imgUrl={team13} date="Coordinator CSS" text="Ms. Gazala Zameer" />
+        <Article imgUrl={team14} date="Secretary CSS" text="Ms. Laeeba Javed" />
+        <Article imgUrl={team16} date="Web and Tech Lead" text="Mr. Ziaul Mustafa" />
+        <Article imgUrl={team17} date="Graphics Team" text="Ms. Rufaida Haq"/>
+        <Article imgUrl={team18} date="Graphics Team" text="Ms. Yusrah Afaq"/>
+        <Article imgUrl={team19} date="Event Coordinator" text="Mr. Aman Tariq" />
+        <Article imgUrl={team20} date="Social Media Team" text="Mr. Aftab Ansari"/>
+        <Article imgUrl={team21} date="Social Media Team" text="Mr. Mohd. Saad"/>
+        <Article imgUrl={team22} date="Social Media Team" text="Mr. Mohd. Saif"/>
+        <Article imgUrl={team23} date="Volunteer" text="Mr. Ahmad Mustafa"/>
+     </div>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+
+
+
     <div className="csd__teampage-heading">
       <h1 className="gradient__text">STUDENT TEAM </h1>
     </div>
