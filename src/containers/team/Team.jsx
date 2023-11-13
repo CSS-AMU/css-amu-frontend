@@ -49,7 +49,7 @@ const Team = () => (
 
 
     <div className="csd__teampage-heading">
-      <h1 className="gradient__text">STUDENT TEAM </h1>
+      <h1 className="gradient__text">PREVIOUS STUDENT TEAM 2020-21 </h1>
     </div>
     <div className="csd__team-container">
       <div className="csd__team-container_groupB">  
