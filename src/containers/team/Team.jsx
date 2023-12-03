@@ -30,7 +30,7 @@ const Team = () => (
     </div>
     <div className="csd__team-container">
       <div className="csd__team-container_groupB">  
-        <Article imgUrl={team13} date="Coordinator CSS" text="Ms. Gazala Zameer" />
+        <Article imgUrl={team13} date="Coordinator CSS" text="Ms. Ghazala Zameer" />
         <Article imgUrl={team14} date="Secretary CSS" text="Ms. Laeeba Javed" />
         <Article imgUrl={team16} date="Web and Tech Lead" text="Mr. Ziaul Mustafa" />
         <Article imgUrl={team17} date="Graphics Team" text="Ms. Rufaida Haq"/>
