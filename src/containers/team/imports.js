@@ -56,6 +56,6 @@ export {
   team_fsl,
   team_shl,
   team_sjd,
-  team_swl
-  team_arf
+  team_swl,
+  team_arf,
 }
