@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import { team01, team02, team03, team10, team11, team12, team_asm, team_bkr,
-         team_fsl, team_shl, team_sjd, team_swl, team13, team14, team16, team17, team18, team19, team20, team21, team22, team23} from './imports';
+         team_fsl, team_shl, team_sjd, team_swl, team13, team14, team16, team17, team18, team19, team20, team21, team22, team23, team_arf} from './imports';
 import './team.css';
 
 const Team = () => (
@@ -11,7 +11,8 @@ const Team = () => (
     </div>
     <div className="csd__team-container">
       <div className="csd__team-container_groupB">
-        <Article imgUrl={team_asm} date="President" text="Prof. Aasim Zafar" />
+         <Article imgUrl={team_arf} date="Chairperson / President" text="Prof. Arman Rasool Faridi"/>
+        <Article imgUrl={team_asm} date="Former President" text="Prof. Aasim Zafar" />
         <Article imgUrl={team_bkr} date="Senior Mentor" text="Prof. Mohammad Ubaidullah Bokhari" />
         <Article imgUrl={team_shl} date="Mentor" text="Dr. Suhel Mustajab"/>
         <Article imgUrl={team_fsl} date="Mentor" text="Dr. Faisal Anwer" />
