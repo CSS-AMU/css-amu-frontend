@@ -33,13 +33,13 @@ const Team = () => (
         <Article imgUrl={team13} date="Coordinator CSS" text="Ms. Ghazala Zameer" />
         <Article imgUrl={team14} date="Secretary CSS" text="Ms. Laeeba Javed" />
         <Article imgUrl={team16} date="Web and Tech Lead" text="Mr. Ziaul Mustafa" />
-        <Article imgUrl={team17} date="Graphics Team" text="Ms. Rufaida Haq"/>
-        <Article imgUrl={team18} date="Graphics Team" text="Ms. Yusrah Afaq"/>
-        <Article imgUrl={team19} date="Event Coordinator" text="Mr. Aman Tariq" />
-        <Article imgUrl={team20} date="Social Media Team" text="Mr. Aftab Ansari"/>
-        <Article imgUrl={team21} date="Social Media Team" text="Mr. Mohd. Saad"/>
-        <Article imgUrl={team22} date="Social Media Team" text="Mr. Mohd. Saif"/>
-        <Article imgUrl={team23} date="Volunteer" text="Mr. Ahmad Mustafa"/>
+         <Article imgUrl={team19} date="Event Coordinator" text="Mr. Aman Tariq" />
+         <Article imgUrl={team20} date="PR Team Lead" text="Mr. Aftab Ansari"/>
+        <Article imgUrl={team17} date="PR Team members / Social Media" text="Ms. Rufaida Haq"/>
+        <Article imgUrl={team18} date="PR Team members / Social Media" text="Ms. Yusrah Afaq"/>
+        <Article imgUrl={team21} date="PR Team members / Social Media" text="Mr. Mohd. Saad"/>
+        <Article imgUrl={team22} date="PR Team members / Social Media" text="Mr. Mohd. Saif"/>
+        <Article imgUrl={team23} date="PR Team members / Social Media" text="Mr. Ahmad Mustafa"/>
      </div>
     </div>
     <br></br>
