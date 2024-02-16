@@ -12,7 +12,8 @@ const Team = () => (
     </div>
     <div className="csd__team-container">
       <div className="csd__team-container_groupB">
-        <Article imgUrl={team_asm} date="President" text="Prof. Aasim Zafar" />
+         <Article imgUrl={team_arf} date="Chairperson / President" text="Prof. Arman Rasool Faridi "/>
+        <Article imgUrl={team_asm} date="Former President" text="Prof. Aasim Zafar" />
         <Article imgUrl={team_bkr} date="Senior Mentor" text="Prof. Mohammad Ubaidullah Bokhari" />
         <Article imgUrl={team_shl} date="Mentor" text="Dr. Suhel Mustajab"/>
         <Article imgUrl={team_fsl} date="Mentor" text="Dr. Faisal Anwer" />
