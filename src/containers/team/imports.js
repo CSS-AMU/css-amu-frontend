@@ -26,6 +26,7 @@ import team_fsl from '../../assets/team_fsl.jpg';
 import team_shl from '../../assets/team_shl.jpeg';
 import team_sjd from '../../assets/team_sjd.jpg';
 import team_swl from '../../assets/team_swl.jpg';
+import team_arf from '../../assets/team_arf.jpg';
 
 export {
   team01,
@@ -56,4 +57,5 @@ export {
   team_shl,
   team_sjd,
   team_swl
+  team_arf
 }
