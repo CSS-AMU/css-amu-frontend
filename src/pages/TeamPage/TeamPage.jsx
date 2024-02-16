@@ -2,7 +2,7 @@ import React from 'react';
 import Article from '../../components/article/Article';
 import { team01, team02, team03, team10, team11, team12, team_asm, team_bkr,
          team_fsl, team_shl, team_sjd, team_swl, team04, team05, 
-         team06, team07, team08, team09 } from '../../containers/team/imports';
+         team06, team07, team08, team09, team_arf } from '../../containers/team/imports';
 import './teampage.css';
 
 const Team = () => (
